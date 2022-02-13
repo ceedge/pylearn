@@ -12,4 +12,4 @@ sting="My Name is {} and my age is {}"
 
 out=sting.format(name,age)
 
-return(print(out))
+print(out)
