@@ -15,3 +15,11 @@ if c>=10 and d>1:
     
 if not (c>10 and d>1):
     print("YES, it works")
+    
+    
+a=5
+b=-1
+if a>1 or b>1:
+    print("sweet it worked")
+if not(a>100 or b>100 ):
+    print("ohh,it work")
