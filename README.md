@@ -7,3 +7,4 @@ class1- input  variables in sentences
 
 class2- operators
 
+class3- is add and removing from list/ tables 
