@@ -20,3 +20,12 @@ del stu["fred"]
 
 print(stu.keys())
 print(stu.items())
+
+stud={
+    "alice":{"id":"id001","age":26,"grade":"A"},
+    "bob":{"id":"id002", "age":27,"grade":"B"},
+   "dan":{"id":"id003", "age":17,"grade":"C"} }
+
+
+print(stud)
+print(stud["bob"])
