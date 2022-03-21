@@ -9,4 +9,13 @@ for number in range(1,501):
 
 for letter in "abcdefli" :
     print(letter)
-    
+
+
+vowels=0
+for letters in "Hello":
+    if letters.lower() in "aeiou" :
+        vowels=vowels+1
+    elif letters==" ":
+        pass
+    else:
+        
