@@ -8,5 +8,4 @@ for number in range(1,501):
     print(number)
 
 for letter in "abcdefli" :
-    print(letter)
-    
+

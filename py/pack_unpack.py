@@ -21,8 +21,4 @@ def about(name,age,likes):
     sent="meet {} they are {} years old and they like {}".format(name,age,likes)
     return sent
 dict={"name":"bob", "age":23,"likes":"python"}
-print(about(**dict))
 
-def foo(**kwargs):
-    for key, value in kwargs.items():
-        print("{}:{}".format(key,value))
