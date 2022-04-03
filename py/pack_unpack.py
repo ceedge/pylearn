@@ -22,3 +22,9 @@ def about(name,age,likes):
     return sent
 dict={"name":"bob", "age":23,"likes":"python"}
 
+def foo(**kwargs):
+    for key,value in kwargs.items():
+        print("{}:{}".format(key,value))
+
+
+print(foo(huda="female", zim="male"))
